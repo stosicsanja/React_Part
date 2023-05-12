@@ -1,26 +1,35 @@
 .header {
-    margin-top: 60px;
-  }
-  
-  .headerTitles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Lora", serif;
-    color: #444;
-  }
-  
-  
-  .headerTitleLg {
-    position: absolute;
-    top: 20%;
-    font-size: 80px;
-  }
-  
-  .headerImg {
-    width: 100%;
-    height: 450px;
-    margin-top: 80px;
-    object-fit: cover;
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(blog.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
-  }
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 80px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+}
